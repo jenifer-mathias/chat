@@ -187,6 +187,7 @@ private fun SelectorExpanded(
     Surface(tonalElevation = 8.dp) {
         when (currentSelector) {
             InputSelector.EMOJI -> EmojiSelector(onTextAdded, focusRequester)
+            InputSelector.ATTACHMENT -> FunctionalityNotAvailablePanel()
 //            InputSelector.DM -> NotAvailablePopup(onCloseRequested)
 //            InputSelector.PICTURE -> FunctionalityNotAvailablePanel()
 //            InputSelector.AUDIO -> FunctionalityNotAvailablePanel()
