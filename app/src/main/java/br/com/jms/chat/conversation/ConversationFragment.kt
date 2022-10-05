@@ -18,10 +18,19 @@ import br.com.jms.chat.MainViewModel
 import br.com.jms.chat.R
 import br.com.jms.chat.data.exampleUiState
 import br.com.jms.chat.theme.ChatTheme
+import java.util.Calendar
+import java.util.Date
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.WebSocket
+import okhttp3.WebSocketListener
 
 class ConversationFragment : Fragment() {
 
     private val activityViewModel: MainViewModel by activityViewModels()
+
+    private var webSocket: WebSocket? = null
+    private val client by lazy { OkHttpClient() }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -45,6 +54,7 @@ class ConversationFragment : Fragment() {
                                 bundle
                             )
                         },
+                        onMessageEnter = ::onMessageEnter,
                         onNavIconPressed = {
                             activityViewModel.openDrawer()
                         },
@@ -58,5 +68,36 @@ class ConversationFragment : Fragment() {
                 }
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        start()
+    }
+
+    private fun start() {
+        val request: Request =
+            Request.Builder().url("ws://10.0.2.2:8082/").build()
+        val listener = object: WebSocketListener() {
+            override fun onMessage(webSocket: WebSocket, text: String) {
+                val currentTime: Date = Calendar.getInstance().time
+                exampleUiState.addMessage(
+                    Message("Web", text, currentTime.toString( )))
+            }
+        }
+        webSocket = client.newWebSocket(request, listener)
+    }
+
+    private fun onMessageEnter(message: Message) {
+        webSocket?.send(message.content)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        webSocket?.close(1000, "Goodbye !")
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        client.dispatcher.executorService.shutdown()
     }
 }

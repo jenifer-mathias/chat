@@ -63,6 +63,8 @@ android {
 }
 
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.9.2")
+
     implementation(libs.kotlin.stdlib)
     implementation(libs.kotlinx.coroutines.android)
 
