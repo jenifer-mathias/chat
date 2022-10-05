@@ -6,11 +6,8 @@
 
 Ferramentas utilizadas:
 
-* UI state management
-* Integration with Architecture Components: Navigation, Fragments, ViewModel
-* Back button handling
-* Text Input and focus management
-* Multiple types of animations and transitions
-* Saved state across configuration changes
-* Material Design 3 theming and Material You dynamic color
-* UI tests
+* Gerenciamento de UI state
+* Integração com componentes de Arquitetura: Navigation, Fragments, ViewModel
+* Estado salvo nas alterações de configuração
+* Tema do Material Design 3 e Material You dynamic color
+* UI Tests
