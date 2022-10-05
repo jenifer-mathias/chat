@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1664978534112.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1664978555764.xml" value="0.8888888888888888" />
+        <entry key="../../../../layout/compose-model-1664978572573.xml" value="0.16111111111111112" />
+        <entry key="../../../../layout/compose-model-1664978603596.xml" value="0.41379310344827586" />
+        <entry key="../../../../layout/compose-model-1664978611806.xml" value="0.6428571428571429" />
+        <entry key="../../../../layout/compose-model-1664979013270.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1664979340365.xml" value="0.10094637223974763" />
+        <entry key="../../../../layout/compose-model-1664979446626.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1664979465922.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1664986361355.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1664988618449.xml" value="0.29444444444444445" />
+        <entry key="../../../../layout/compose-model-1664988980745.xml" value="0.4148148148148148" />
+        <entry key="../../../../layout/compose-model-1664990215848.xml" value="0.375" />
+        <entry key="../../../../layout/compose-model-1664994635846.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable-mdpi/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/chat_logo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chat.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chat_back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chat_front.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_jenifer_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.162" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.10729166666666666" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_jenifer.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
