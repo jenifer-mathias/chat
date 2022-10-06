@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Allows us to override platform level specific attributes in their
+         respective values-vXX folder. -->
+    <style name="Platform.Theme.Chat" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@color/black30</item>
+    </style>
+
+    <!-- The actual theme we use. This varies for light theme (here),
+         and values-night for dark theme. -->
+    <style name="Theme.Chat" parent="Platform.Theme.Chat">
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryDark">@color/second_light</item>
+        <item name="colorAccent">@color/third_light</item>
+    </style>
+
+    <style name="Theme.Chat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Chat.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.Chat.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+</resources>
