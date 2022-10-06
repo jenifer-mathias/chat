@@ -22,5 +22,5 @@ Ferramentas utilizadas:
 
 ## Vídeo explicativo
 
-[![Video](https://github.com/jenifer-mathias/chat/blob/main/screenshots/capa-chat.png)](https://youtu.be/Du4UZjszbgs)
+[Video](https://youtu.be/Du4UZjszbgs)
 
