@@ -22,5 +22,5 @@ Ferramentas utilizadas:
 
 ## Vídeo explicativo
 
-[Video](https://youtu.be/Du4UZjszbgs)
+[Link do video](https://youtu.be/Du4UZjszbgs)
 
